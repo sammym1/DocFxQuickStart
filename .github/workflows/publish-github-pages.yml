@@ -27,7 +27,7 @@ jobs:
     - name: Setup .NET 6.0
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 6.0.x
+        dotnet-version: 8.x
 
     - name: Setup DocFX & tools
       uses: crazy-max/ghaction-chocolatey@v1
